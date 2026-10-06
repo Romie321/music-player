@@ -3,7 +3,9 @@ function App() {
     <div className="app">
       <navbar />
       <main className="app-main">
-        <div className="player-section"></div>
+        <div className="player-section">
+          <MusicPlayer />
+        </div>
         <div className="content-section"></div>
       </main>
     </div>
