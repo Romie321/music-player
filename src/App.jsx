@@ -2,7 +2,9 @@ function App() {
   return (
     <div className="app">
       <navbar />
-      <main className="app-main"></main>
+      <main className="app-main">
+        <div className="player-section"></div>
+      </main>
     </div>
   );
 }
