@@ -1,3 +1,5 @@
+import { MusicPlayer } from "./components/MusicPlayer";
+
 function App() {
   return (
     <div className="app">
