@@ -1,16 +1,119 @@
-# React + Vite
+# 🎵 Music Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A music player application built with React as part of my journey to learn modern front-end development. This project focuses on understanding React fundamentals, component-based architecture, state management, event handling, and working with audio in web applications.
 
-Currently, two official plugins are available:
+## 🚀 Project Goal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The purpose of this project is to strengthen my React skills by building a fully functional music player from scratch. Through this project, I am learning how to:
 
-## React Compiler
+- Build reusable React components
+- Manage application state with Hooks
+- Handle user interactions and events
+- Work with audio elements in JavaScript
+- Create responsive user interfaces
+- Organize a scalable React project structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Play and pause songs
+- Skip to next and previous tracks
+- Display current song information
+- Track playback progress
+- Album artwork display
+- Responsive design for desktop and mobile devices
+- Interactive user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Hooks
+- Vite
+
+## 📂 Project Structure
+
+```text
+music-player/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Romie321/music-player.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd music-player
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+## 📸 Preview
+
+Project screenshots coming soon.
+
+## 🎯 What I Learned
+
+This project helps me practice:
+
+- React fundamentals
+- Component composition
+- Props and state management
+- Event handling
+- Conditional rendering
+- Responsive design principles
+- Project organization and maintainability
+
+## 🔮 Future Enhancements
+
+- Shuffle functionality
+- Repeat modes
+- Volume controls
+- Song search
+- Playlist creation and management
+- Dark and light theme toggle
+- Local storage persistence
+- Music API integration
+
+## 🤝 Contributions
+
+Feedback, suggestions, and constructive criticism are always welcome. Feel free to open an issue or submit a pull request.
+
+## 👨‍💻 Author
+
+**Ramiro**
+
+GitHub: [@Romie321](https://github.com/-
+
+This project is being built as a learning exercise to improve my React development skills and gain hands-on experience building interactive web applications.ules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
