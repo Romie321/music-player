@@ -4,6 +4,7 @@ function App() {
       <navbar />
       <main className="app-main">
         <div className="player-section"></div>
+        <div className="content-section"></div>
       </main>
     </div>
   );
