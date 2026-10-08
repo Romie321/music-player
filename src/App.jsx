@@ -1,3 +1,4 @@
+import { AllSongs } from "./components/AllSongs";
 import { MusicPlayer } from "./components/MusicPlayer";
 import { BrowserRouter, Routes, Route } from "react-router";
 
@@ -12,7 +13,7 @@ function App() {
           </div>
           <div className="content-section">
             <Routes>
-              <Route path="/" element{} />
+              <Route path="/" element{AllSongs} />
             </Routes>
           </div>
         </main>
