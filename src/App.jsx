@@ -14,6 +14,7 @@ function App() {
           <div className="content-section">
             <Routes>
               <Route path="/" element{AllSongs} />
+              <Route path="playlist" element{PlayList} />
             </Routes>
           </div>
         </main>
