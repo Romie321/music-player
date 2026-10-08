@@ -1,4 +1,5 @@
 import { MusicPlayer } from "./components/MusicPlayer";
+import { BrowserRouter, Routes, Route } from "react-router";
 
 function App() {
   return (
