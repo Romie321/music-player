@@ -10,7 +10,11 @@ function App() {
           <div className="player-section">
             <MusicPlayer />
           </div>
-          <div className="content-section"></div>
+          <div className="content-section">
+            <Routes>
+              <Route path="/" element{} />
+            </Routes>
+          </div>
         </main>
       </div>
     </BrowserRouter>
