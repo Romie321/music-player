@@ -8,6 +8,13 @@ const songs = [
     url: "/songs/cyberpunk-492562.mp3",
     duration: "2:24",
   },
+  {
+    id: 1,
+    title: "Danger",
+    artist: "MrClaps",
+    url: "/songs/danger-492563.mp3",
+    duration: "2:43",
+  },
 ];
 
 export const useMusic = () => {
