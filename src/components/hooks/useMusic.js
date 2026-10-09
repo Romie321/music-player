@@ -9,11 +9,18 @@ const songs = [
     duration: "2:24",
   },
   {
-    id: 1,
+    id: 2,
     title: "Danger",
     artist: "MrClaps",
     url: "/songs/danger-492563.mp3",
     duration: "2:43",
+  },
+  {
+    id: 3,
+    title: "Game Show",
+    artist: "MrClaps",
+    url: "/songs/game-show-492564.mp3",
+    duration: "2:24",
   },
 ];
 
