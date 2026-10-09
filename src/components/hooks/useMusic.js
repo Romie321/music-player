@@ -22,6 +22,13 @@ const songs = [
     url: "/songs/game-show-492564.mp3",
     duration: "2:24",
   },
+  {
+    id: 4,
+    title: "Hard Rock",
+    artist: "MrClaps",
+    url: "/songs/hard-rock-492565.mp3",
+    duration: "2:18",
+  },
 ];
 
 export const useMusic = () => {
