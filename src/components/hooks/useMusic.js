@@ -36,6 +36,20 @@ const songs = [
     url: "/songs/hate-492566.mp3",
     duration: "2:26",
   },
+  {
+    id: 6,
+    title: "Punk",
+    artist: "MrClaps",
+    url: "/songs/punk-492567.mp3",
+    duration: "1:58",
+  },
+  {
+    id: 7,
+    title: "Scary",
+    artist: "MrClaps",
+    url: "/songs/scary-492568.mp3",
+    duration: "0:46",
+  },
 ];
 
 export const useMusic = () => {
