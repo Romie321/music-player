@@ -1,5 +1,5 @@
 import { useState } from "react";
 
 export const useMusic = () => {
-  const [] = useState([]);
+  const [allSongs, setAllSongs] = useState([]);
 };
