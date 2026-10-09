@@ -50,6 +50,13 @@ const songs = [
     url: "/songs/scary-492568.mp3",
     duration: "0:46",
   },
+  {
+    id: 8,
+    title: "This Heavy Metal",
+    artist: "MrClaps",
+    url: "/songs/this-heavy-metal-492569.mp3",
+    duration: "2:09",
+  },
 ];
 
 export const useMusic = () => {
