@@ -29,6 +29,13 @@ const songs = [
     url: "/songs/hard-rock-492565.mp3",
     duration: "2:18",
   },
+  {
+    id: 5,
+    title: "Hate",
+    artist: "MrClaps",
+    url: "/songs/hate-492566.mp3",
+    duration: "2:26",
+  },
 ];
 
 export const useMusic = () => {
