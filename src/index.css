@@ -20,6 +20,9 @@ body {
   min-height: 100vh;
 }
 
+.app {
+}
+
 /*Playlist*/
 .playlist {
   background: rgba(255, 255, 255, 0.1);
