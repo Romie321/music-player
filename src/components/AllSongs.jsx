@@ -7,7 +7,7 @@ export const AllSongs = () => {
         {allSongs.map((song, key) => {
           <div key={key} className="song-card">
             <div className="song-info">
-              <h3>{song.title}</h3>
+              <h3 className="song-title">{song.title}</h3>
               <p>{song.artist}</p>
               <span>{song.duration}</span>
             </div>
