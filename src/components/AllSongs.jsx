@@ -8,7 +8,7 @@ export const AllSongs = () => {
           <div key={key} className="song-card">
             <div className="song-info">
               <h3 className="song-title">{song.title}</h3>
-              <p>{song.artist}</p>
+              <p className="song-artist">{song.artist}</p>
               <span>{song.duration}</span>
             </div>
           </div>;
