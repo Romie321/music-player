@@ -1,4 +1,4 @@
 export const AllSongs = () => {
   const { allSongs } = useMusic();
-  return <div></div>;
+  return <div className="all-songs"></div>;
 };
