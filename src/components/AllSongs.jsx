@@ -1,5 +1,5 @@
 export const AllSongs = () => {
-  const { allSongs } = useMusic();
+  const { allSongs, handlePlaySong } = useMusic();
   return (
     <div className="all-songs">
       <h2>All Songs ({allSongs.length})</h2>
