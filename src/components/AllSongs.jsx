@@ -7,7 +7,7 @@ export const AllSongs = () => {
         {allSongs.map((song, key) => {
           <div
             key={key}
-            className="song-card"
+            className={`song-card ${currentTrackIndex === key ? "active" : ""}`}
             onClick={() => handlePlaySong(song, key)}
           >
             <div className="song-info">
