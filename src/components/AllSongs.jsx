@@ -17,6 +17,7 @@ export const AllSongs = () => {
             </div>
             <div className="play-button">
               {currentTrackIndex === key
+              {/*song playing icon : icon to play song*/}
                 ? "https://img.icons8.com/?size=100&id=2LwcyTtr4t5g&format=png&color=000000"
                 : "https://img.icons8.com/?size=100&id=loerOlJuLFzH&format=png&color=000000"}
             </div>
