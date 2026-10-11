@@ -60,5 +60,5 @@ const songs = [
 ];
 
 export const useMusic = () => {
-  const [allSongs, setAllSongs] = useState([]);
+  const [allSongs, setAllSongs] = useState(songs);
 };
