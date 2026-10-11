@@ -9,6 +9,7 @@ export const AllSongs = () => {
             <div className="song-info">
               <h3>{song.title}</h3>
               <p>{song.artist}</p>
+              <span></span>
             </div>
           </div>;
         })}
