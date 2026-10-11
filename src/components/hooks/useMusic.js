@@ -62,5 +62,6 @@ const songs = [
 export const useMusic = () => {
   const [allSongs, setAllSongs] = useState(songs);
   const [currentTrack, setCurrentTrack] = useState(null);
+  const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
   return { allongs };
 };
