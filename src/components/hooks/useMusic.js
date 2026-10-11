@@ -69,5 +69,5 @@ export const useMusic = () => {
     setCurrentTrackIndex(index);
   };
 
-  return { allSongs, handlePlaySong };
+  return { allSongs, handlePlaySong, currentTrack, currentTrackIndex };
 };
