@@ -6,7 +6,9 @@ export const AllSongs = () => {
       <div className="songs-grid">
         {allSongs.map((song, key) => {
           <div key={key} className="song-card">
-            <div className="song-info"></div>
+            <div className="song-info">
+              <h3>{song.title}</h3>
+            </div>
           </div>;
         })}
       </div>
