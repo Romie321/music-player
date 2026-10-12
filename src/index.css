@@ -80,4 +80,5 @@ body {
     rgba(5, 150, 105, 0.2)
   );
   border-color: rgba(16, 185, 129, 0.5);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
 }
