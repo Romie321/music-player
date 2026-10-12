@@ -69,4 +69,6 @@ body {
 }
 
 .playlist-track:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
 }
