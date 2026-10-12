@@ -67,3 +67,6 @@ body {
   border-radius: 12px;
   transition: all o.3s ease;
 }
+
+.playlist-track:hover {
+}
