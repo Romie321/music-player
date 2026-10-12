@@ -61,4 +61,5 @@ body {
 .playlist-track {
   display: flex;
   align-items: center;
+  padding: 1rem;
 }
