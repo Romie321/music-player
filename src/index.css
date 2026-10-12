@@ -63,4 +63,6 @@ body {
   align-items: center;
   padding: 1rem;
   background: rgba(255, 255, 255, 0.5);
+  border: 1px solid transparent;
+  border-radius: 12px;
 }
