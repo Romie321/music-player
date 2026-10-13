@@ -92,4 +92,5 @@ body {
 }
 
 .track-details {
+  flex: 1;
 }
