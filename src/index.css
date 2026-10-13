@@ -99,4 +99,5 @@ body {
 .track-name {
   font-weight: 500;
   color: ghostwhite;
+  margin-bottom: 0.25rem;
 }
