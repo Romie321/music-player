@@ -9,7 +9,9 @@ export const MusicPlayer = () => {
         <h3 className="track-title">{currentTrack.title}</h3>
         <p className="track-artist">{currentTrack.artist}</p>
       </div>
-      <div className="progress-container"></div>
+      <div className="progress-container">
+        <span className="time"></span>
+      </div>
     </div>
   );
 };
