@@ -85,5 +85,6 @@ export const useMusic = () => {
     currentTrack,
     currentTrackIndex,
     currentTime,
+    formatTime,
   };
 };
