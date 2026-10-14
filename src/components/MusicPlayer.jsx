@@ -1,3 +1,5 @@
+import { useMusic } from "../hooks/useMusic";
+
 export const MusicPlayer = () => {
   const {} = useMusic();
   return (
