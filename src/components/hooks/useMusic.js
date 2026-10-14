@@ -70,7 +70,9 @@ export const useMusic = () => {
     setCurrentTrackIndex(index);
   };
 
-  const formatTime = (time) => {};
+  const formatTime = (time) => {
+    if (isNaN(time) || time === undefined) return "0:00";
+  };
 
   return {
     allSongs,
