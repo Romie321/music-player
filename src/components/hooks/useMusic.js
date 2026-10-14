@@ -72,6 +72,8 @@ export const useMusic = () => {
 
   const formatTime = (time) => {
     if (isNaN(time) || time === undefined) return "0:00";
+
+    const minutes = Math.floor(time / 60);
   };
 
   return {
