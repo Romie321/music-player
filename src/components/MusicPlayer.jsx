@@ -6,7 +6,7 @@ export const MusicPlayer = () => {
     <div className="music-player">
       <audio />
       <div className="track-info">
-        <h3>{currentTrack}</h3>
+        <h3>{currentTrack.title}</h3>
       </div>
     </div>
   );
