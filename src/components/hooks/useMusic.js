@@ -70,5 +70,11 @@ export const useMusic = () => {
     setCurrentTrackIndex(index);
   };
 
-  return { allSongs, handlePlaySong, currentTrack, currentTrackIndex };
+  return {
+    allSongs,
+    handlePlaySong,
+    currentTrack,
+    currentTrackIndex,
+    currentTime,
+  };
 };
