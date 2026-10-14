@@ -1,3 +1,7 @@
 export const MusicPlayer = () => {
-  return <div className="music-player"></div>;
+  return (
+    <div className="music-player">
+      <audio />
+    </div>
+  );
 };
