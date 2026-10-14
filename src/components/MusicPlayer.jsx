@@ -1,4 +1,5 @@
 export const MusicPlayer = () => {
+  const {} = useMusic();
   return (
     <div className="music-player">
       <audio />
