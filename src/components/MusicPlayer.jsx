@@ -10,7 +10,7 @@ export const MusicPlayer = () => {
         <p className="track-artist">{currentTrack.artist}</p>
       </div>
       <div className="progress-container">
-        <span className="time"></span>
+        <span className="time">{formatTime(currentTime)}</span>
       </div>
     </div>
   );
