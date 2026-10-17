@@ -1,7 +1,7 @@
 import { useMusic } from "../hooks/useMusic";
 
 export const MusicPlayer = () => {
-  const { currentTrack, formatTime, currentTime } = useMusic();
+  const { currentTrack, formatTime, currentTime, duration } = useMusic();
   return (
     <div className="music-player">
       <audio />
