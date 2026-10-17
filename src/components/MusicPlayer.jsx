@@ -11,6 +11,7 @@ export const MusicPlayer = () => {
       </div>
       <div className="progress-container">
         <span className="time">{formatTime(currentTime)}</span>
+        <input />
         <span className="time">{formatTime(duration)}</span>
       </div>
     </div>
