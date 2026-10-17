@@ -17,6 +17,7 @@ export const MusicPlayer = () => {
           max={duration || 0}
           step={0.1}
           value={currentTime || 0}
+          className="progress-bar"
         />
         <span className="time">{formatTime(duration)}</span>
       </div>
