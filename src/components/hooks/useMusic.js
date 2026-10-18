@@ -88,5 +88,6 @@ export const useMusic = () => {
     currentTime,
     formatTime,
     duration,
+    setDuration,
   };
 };
