@@ -5,7 +5,10 @@ export const MusicPlayer = () => {
   const { currentTrack, formatTime, currentTime, duration } = useMusic();
   const audioRef = useRef(null);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+  }, []);
 
   return (
     <div className="music-player">
