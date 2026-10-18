@@ -10,6 +10,8 @@ export const MusicPlayer = () => {
     if (!audio) return;
 
     const handleLoadedMetadata = () => {};
+
+    const handleTimeUpdate = () => {};
   }, []);
 
   return (
