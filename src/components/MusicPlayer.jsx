@@ -2,14 +2,17 @@ import { useMusic } from "../hooks/useMusic";
 import { useEffect, useRef } from "react";
 
 export const MusicPlayer = () => {
-  const { currentTrack, formatTime, currentTime, duration } = useMusic();
+  const { currentTrack, formatTime, currentTime, duration, setDuration } =
+    useMusic();
   const audioRef = useRef(null);
 
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const handleLoadedMetadata = () => {};
+    const handleLoadedMetadata = () => {
+      SVGAnimatedEnumeration(audio.duration);
+    };
 
     const handleTimeUpdate = () => {};
 
