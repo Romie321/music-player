@@ -2,8 +2,14 @@ import { useMusic } from "../hooks/useMusic";
 import { useEffect, useRef } from "react";
 
 export const MusicPlayer = () => {
-  const { currentTrack, formatTime, currentTime, duration, setDuration } =
-    useMusic();
+  const {
+    currentTrack,
+    formatTime,
+    currentTime,
+    duration,
+    setDuration,
+    setCurrentTime,
+  } = useMusic();
   const audioRef = useRef(null);
 
   useEffect(() => {
