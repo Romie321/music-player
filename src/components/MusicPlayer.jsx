@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 export const MusicPlayer = () => {
   const { currentTrack, formatTime, currentTime, duration } = useMusic();
-  const audioRef = useRef();
+  const audioRef = useRef(null);
   return (
     <div className="music-player">
       <audio />
