@@ -12,6 +12,8 @@ export const MusicPlayer = () => {
     const handleLoadedMetadata = () => {};
 
     const handleTimeUpdate = () => {};
+
+    const handleEnded = () => {};
   }, []);
 
   return (
