@@ -18,7 +18,11 @@ export const MusicPlayer = () => {
 
     const handleEnded = () => {};
 
-    audio.addEventListner("loadmetadata");
+    audio.addEventListner("loadmetadata", handleloadedMetadata);
+
+    return () => {
+      audio.removeEventListner("loadmetadata", handleloadedMetadata);
+    };
   }, []);
 
   return (
