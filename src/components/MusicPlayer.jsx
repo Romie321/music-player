@@ -33,7 +33,12 @@ export const MusicPlayer = () => {
 
   return (
     <div className="music-player">
-      <audio ref={audioRef} preload="metadata" crossOrigin="anonymous" />
+      <audio
+        ref={audioRef}
+        src={currentTrack.url}
+        preload="metadata"
+        crossOrigin="anonymous"
+      />
       <div className="track-info">
         <h3 className="track-title">{currentTrack.title}</h3>
         <p className="track-artist">{currentTrack.artist}</p>
