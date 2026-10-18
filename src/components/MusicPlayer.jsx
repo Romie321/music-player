@@ -8,6 +8,8 @@ export const MusicPlayer = () => {
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
+
+    const handleLoadedMetadata = () => {};
   }, []);
 
   return (
