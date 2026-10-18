@@ -6,7 +6,7 @@ export const MusicPlayer = () => {
   const audioRef = useRef(null);
   return (
     <div className="music-player">
-      <audio />
+      <audio ref={audioRef} preload="metadata" crossOrigin="anonymous" />
       <div className="track-info">
         <h3 className="track-title">{currentTrack.title}</h3>
         <p className="track-artist">{currentTrack.artist}</p>
