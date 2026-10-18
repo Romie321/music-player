@@ -23,7 +23,7 @@ export const MusicPlayer = () => {
     return () => {
       audio.removeEventListner("loadmetadata", handleloadedMetadata);
     };
-  }, []);
+  }, [setDuration, setCurrentTime, currentTrack]);
 
   return (
     <div className="music-player">
