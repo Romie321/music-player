@@ -71,7 +71,11 @@ export const useMusic = () => {
     setCurrentTrackIndex(index);
   };
 
-  const nextTrack = () => {};
+  const nextTrack = () => {
+    setCurrentTrackIndex((prev) => {
+      return (prev + 1) % allSongs.length;
+    });
+  };
 
   const prevTrack = () => {};
 
