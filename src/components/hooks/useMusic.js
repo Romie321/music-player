@@ -113,5 +113,6 @@ export const useMusic = () => {
     prevTrack,
     play,
     pause,
+    isPlaying,
   };
 };
