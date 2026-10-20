@@ -58,13 +58,13 @@ export const MusicPlayer = () => {
         <span className="time">{formatTime(duration)}</span>
       </div>
       <div className="controls">
-        <button className="control-btn">
+        <button className="control-btn" onClick={prevTrack}>
           <FontAwesomeIcon icon={byPrefixAndName.fas["backward-fast"]} />
         </button>
         <button className="control-btn play-btn">
           <FontAwesomeIcon icon={byPrefixAndName.fas["play"]} />
         </button>
-        <button className="control-btn">
+        <button className="control-btn" onClick={nextTrack}>
           <FontAwesomeIcon icon={byPrefixAndName.fas["forward-fast"]} />
         </button>
       </div>
