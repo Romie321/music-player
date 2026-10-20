@@ -56,9 +56,15 @@ export const MusicPlayer = () => {
         <span className="time">{formatTime(duration)}</span>
       </div>
       <div className="controls">
-        <button></button>
-        <button></button>
-        <button></button>
+        <button>
+          <FontAwesomeIcon icon={byPrefixAndName.fas["backward-fast"]} />
+        </button>
+        <button>
+          <FontAwesomeIcon icon={byPrefixAndName.fas["play"]} />
+        </button>
+        <button>
+          <FontAwesomeIcon icon={byPrefixAndName.fas["forward-fast"]} />
+        </button>
       </div>
     </div>
   );
