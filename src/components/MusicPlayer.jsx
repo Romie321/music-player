@@ -11,6 +11,8 @@ export const MusicPlayer = () => {
     setCurrentTime,
     nextTrack,
     prevTrack,
+    play,
+    pause,
     isPlaying,
   } = useMusic();
   const audioRef = useRef(null);
@@ -62,7 +64,7 @@ export const MusicPlayer = () => {
         <button className="control-btn" onClick={prevTrack}>
           <FontAwesomeIcon icon={byPrefixAndName.fas["backward-fast"]} />
         </button>
-        <button className="control-btn play-btn">
+        <button className="control-btn play-btn" onClick={}>
           <FontAwesomeIcon icon={byPrefixAndName.fas["play"]} />
         </button>
         <button className="control-btn" onClick={nextTrack}>
