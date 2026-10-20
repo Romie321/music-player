@@ -79,7 +79,13 @@ export const useMusic = () => {
     });
   };
 
-  const prevTrack = () => {};
+  const prevTrack = () => {
+    setCurrentTrackIndex((prev) => {
+      const nextIndex = prev === 0 ? allSongs - 1 : prev - 1;
+      currentTrack(allSongs[nextIndex]);
+      return nextIndex;
+    });
+  };
 
   const formatTime = (time) => {
     if (isNaN(time) || time === undefined) return "0:00";
