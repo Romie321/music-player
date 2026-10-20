@@ -55,7 +55,11 @@ export const MusicPlayer = () => {
         />
         <span className="time">{formatTime(duration)}</span>
       </div>
-      <div className="controls"></div>
+      <div className="controls">
+        <button></button>
+        <button></button>
+        <button></button>
+      </div>
     </div>
   );
 };
