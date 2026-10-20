@@ -88,6 +88,9 @@ export const useMusic = () => {
     });
   };
 
+  const play = setIsPlaying(true);
+  const pause = setIsPlaying(false);
+
   const formatTime = (time) => {
     if (isNaN(time) || time === undefined) return "0:00";
 
