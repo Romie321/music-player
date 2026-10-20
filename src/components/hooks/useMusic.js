@@ -111,5 +111,7 @@ export const useMusic = () => {
     setDuration,
     nextTrack,
     prevTrack,
+    play,
+    pause,
   };
 };
