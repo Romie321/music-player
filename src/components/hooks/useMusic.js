@@ -71,6 +71,10 @@ export const useMusic = () => {
     setCurrentTrackIndex(index);
   };
 
+  const nextTrack = () => {};
+
+  const prevTrack = () => {};
+
   const formatTime = (time) => {
     if (isNaN(time) || time === undefined) return "0:00";
 
