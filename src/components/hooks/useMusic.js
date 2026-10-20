@@ -105,5 +105,7 @@ export const useMusic = () => {
     formatTime,
     duration,
     setDuration,
+    nextTrack,
+    prevTrack,
   };
 };
