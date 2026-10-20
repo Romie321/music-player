@@ -9,6 +9,8 @@ export const MusicPlayer = () => {
     duration,
     setDuration,
     setCurrentTime,
+    nextTrack,
+    prevTrack,
   } = useMusic();
   const audioRef = useRef(null);
 
