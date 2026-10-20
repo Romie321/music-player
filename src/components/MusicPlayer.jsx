@@ -64,7 +64,10 @@ export const MusicPlayer = () => {
         <button className="control-btn" onClick={prevTrack}>
           <FontAwesomeIcon icon={byPrefixAndName.fas["backward-fast"]} />
         </button>
-        <button className="control-btn play-btn" onClick={}>
+        <button
+          className="control-btn play-btn"
+          onClick={isPlaying ? pause() : play()}
+        >
           <FontAwesomeIcon icon={byPrefixAndName.fas["play"]} />
         </button>
         <button className="control-btn" onClick={nextTrack}>
