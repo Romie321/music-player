@@ -174,4 +174,5 @@ body {
 }
 
 .progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
 }
