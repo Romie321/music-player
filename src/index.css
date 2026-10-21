@@ -162,4 +162,7 @@ body {
   border-radius: 3px;
   outline: none;
   cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
 }
