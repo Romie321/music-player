@@ -140,3 +140,8 @@ body {
   color: rgba(255, 255, 255, 0.7);
   margin: 0;
 }
+
+.progress-container {
+  display: flex;
+  align-items: center;
+}
