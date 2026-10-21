@@ -150,4 +150,6 @@ body {
 
 .time {
   font-size: 0.9rem;
+  text-align: center;
+  min-width: 3rem;
 }
