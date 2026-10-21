@@ -147,3 +147,7 @@ body {
   gap: 1rem;
   margin-bottom: 2rem;
 }
+
+.time {
+  font-size: 0.9rem;
+}
