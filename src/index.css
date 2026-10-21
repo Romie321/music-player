@@ -166,3 +166,8 @@ body {
   appearance: none;
   position: relative;
 }
+
+.progress-bar::-webkit-slider-track {
+  height: 6px;
+  border-radius: 3px;
+}
