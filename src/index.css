@@ -157,4 +157,6 @@ body {
 
 .progress-bar {
   height: 6px;
+  flex: 1;
+  background: rgba(16, 185, 129, 0.2);
 }
