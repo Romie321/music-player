@@ -178,4 +178,5 @@ body {
   width: 16px;
   height: 16px;
   background: #10b981;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
