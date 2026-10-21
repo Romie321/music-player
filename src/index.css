@@ -184,3 +184,6 @@ body {
   cursor: pointer;
   border-radius: 50%;
 }
+
+.progress-bar::moz-range-track {
+}
