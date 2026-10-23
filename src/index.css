@@ -195,4 +195,6 @@ body {
 .progress-bar::-moz-range-thumb {
   height: 16px;
   width: 16px;
+  border: none;
+  border-radius: 50%;
 }
