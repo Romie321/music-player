@@ -186,4 +186,7 @@ body {
 }
 
 .progress-bar::moz-range-track {
+  height: 6px;
+  border: none;
+  border-radius: 3px;
 }
