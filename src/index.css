@@ -189,4 +189,5 @@ body {
   height: 6px;
   border: none;
   border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
 }
