@@ -204,4 +204,11 @@ body {
 
 /*Fill effect for progress bar*/
 .progress-bar {
+  background: linear-gradient(
+    to right,
+    #10b981 0%,
+    #10b981 var(--progress, 0%),
+    rgba(255, 255, 255, 0.2) var(--progress, 0%),
+    rgba(255, 255, 255, 0.2) 100%
+  );
 }
