@@ -219,4 +219,7 @@ body {
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
