@@ -264,4 +264,5 @@ body {
   border-radius: 2px;
   outline: none;
   cursor: pointer;
+  -webkit-appearance: none;
 }
