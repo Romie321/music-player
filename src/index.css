@@ -273,4 +273,5 @@ body {
   width: 12px;
   background: #10b981;
   border-radius: 50%;
+  cursor: pointer;
 }
