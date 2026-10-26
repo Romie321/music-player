@@ -288,4 +288,5 @@ body {
 .no-track {
   text-align: center;
   font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
 }
