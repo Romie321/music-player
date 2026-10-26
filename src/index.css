@@ -279,4 +279,6 @@ body {
 .volume-bar:: ::-moz-range-thumb {
   height: 12px;
   width: 12px;
+  border: none;
+  border-radius: 50%;
 }
