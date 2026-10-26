@@ -258,4 +258,6 @@ body {
 }
 
 .volume-bar {
+  flex: 1;
+  height: 4px;
 }
