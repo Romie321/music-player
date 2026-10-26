@@ -266,3 +266,6 @@ body {
   cursor: pointer;
   -webkit-appearance: none;
 }
+
+.volume-bar::-webkit-slider-thumb {
+}
