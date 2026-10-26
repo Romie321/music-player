@@ -286,4 +286,6 @@ body {
 }
 
 .no-track {
+  text-align: center;
+  font-style: italic;
 }
