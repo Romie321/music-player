@@ -268,4 +268,5 @@ body {
 }
 
 .volume-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
 }
