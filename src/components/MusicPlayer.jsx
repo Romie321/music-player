@@ -21,7 +21,7 @@ export const MusicPlayer = () => {
     const audio = audioRef.current;
     if (!audio) return;
     if (isPlaying) {
-      audio.play();
+      audio.play().catch((err) => console.error(err));
     }
   }, [isPlaying]);
 
