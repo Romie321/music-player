@@ -17,6 +17,8 @@ export const MusicPlayer = () => {
   } = useMusic();
   const audioRef = useRef(null);
 
+  useEffect();
+
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
