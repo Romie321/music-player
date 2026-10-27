@@ -22,6 +22,8 @@ export const MusicPlayer = () => {
     if (!audio) return;
     if (isPlaying) {
       audio.play().catch((err) => console.error(err));
+    } else {
+      audio.pause();
     }
   }, [isPlaying]);
 
