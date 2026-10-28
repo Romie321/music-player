@@ -42,6 +42,7 @@ export const MusicPlayer = () => {
     const handleEnded = () => {};
 
     audio.addEventListner("loadmetadata", handleloadedMetadata);
+    audio.addEventListner("timeupdate", handleTimeUpdate);
 
     return () => {
       audio.removeEventListner("loadmetadata", handleloadedMetadata);
