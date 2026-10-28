@@ -35,7 +35,9 @@ export const MusicPlayer = () => {
       SVGAnimatedEnumeration(audio.duration);
     };
 
-    const handleTimeUpdate = () => {};
+    const handleTimeUpdate = () => {
+      setCurrentTime(audio.currentTime);
+    };
 
     const handleEnded = () => {};
 
