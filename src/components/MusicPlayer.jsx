@@ -32,6 +32,7 @@ export const MusicPlayer = () => {
     if (!audio) = return;
     const newTime = e.target.value;
     audio.currentTime = newTime;
+    setCurrentTime(newTime)
   };
 
   useEffect(() => {
