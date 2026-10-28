@@ -78,6 +78,7 @@ export const useMusic = () => {
       setCurrentTrack(allSongs[nextIndex]);
       return nextIndex;
     });
+    setIsPlaying(false);
   };
 
   const prevTrack = () => {
