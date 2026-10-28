@@ -50,6 +50,7 @@ export const MusicPlayer = () => {
     return () => {
       audio.removeEventListner("loadmetadata", handleloadedMetadata);
       audio.removeEventListner("timeupdate", handleTimeUpdate);
+      audio.removeEventListner("ended", handleEnded);
     };
   }, [setDuration, setCurrentTime, currentTrack]);
 
