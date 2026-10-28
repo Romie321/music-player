@@ -87,6 +87,7 @@ export const useMusic = () => {
       currentTrack(allSongs[nextIndex]);
       return nextIndex;
     });
+    setIsPlaying(false);
   };
 
   const play = setIsPlaying(true);
