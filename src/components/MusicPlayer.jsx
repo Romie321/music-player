@@ -29,6 +29,7 @@ export const MusicPlayer = () => {
 
   const handleTimeChange = (e) => {
     const audio = audioRef.current;
+    if (!audio) = return;
   };
 
   useEffect(() => {
