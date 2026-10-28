@@ -39,7 +39,9 @@ export const MusicPlayer = () => {
       setCurrentTime(audio.currentTime);
     };
 
-    const handleEnded = () => {};
+    const handleEnded = () => {
+      nextTrack();
+    };
 
     audio.addEventListner("loadmetadata", handleloadedMetadata);
     audio.addEventListner("timeupdate", handleTimeUpdate);
