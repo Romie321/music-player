@@ -105,7 +105,9 @@ export const MusicPlayer = () => {
           <FontAwesomeIcon icon={byPrefixAndName.fas["forward-fast"]} />
         </button>
       </div>
-      <div className="volume-container"></div>
+      <div className="volume-container">
+        <span className="volume-icon"><FontAwesomeIcon icon={byPrefixAndName.far['volume']} /></span>
+      </div>
     </div>
   );
 };
