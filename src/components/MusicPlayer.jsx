@@ -14,6 +14,8 @@ export const MusicPlayer = () => {
     play,
     pause,
     isPlaying,
+    volume,
+    setVolume
   } = useMusic();
   const audioRef = useRef(null);
 
