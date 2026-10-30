@@ -107,6 +107,7 @@ export const MusicPlayer = () => {
       </div>
       <div className="volume-container">
         <span className="volume-icon"><FontAwesomeIcon icon={byPrefixAndName.far['volume']} /></span>
+        <input type="range" min={0} max={1} step={0.1} />
       </div>
     </div>
   );
