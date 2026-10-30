@@ -117,5 +117,7 @@ export const useMusic = () => {
     play,
     pause,
     isPlaying,
+    volume,
+    setVolume,
   };
 };
