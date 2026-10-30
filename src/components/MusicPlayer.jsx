@@ -37,6 +37,8 @@ export const MusicPlayer = () => {
     setCurrentTime(newTime)
   };
 
+  const handleVolumeChange = (e) => {}
+
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
