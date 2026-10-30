@@ -39,6 +39,7 @@ export const MusicPlayer = () => {
 
   const handleVolumeChange = (e) => {
     const newVolume = parseFloat(e.target.value);
+    setVolume(newVolume)
   }
 
   useEffect(() => {
