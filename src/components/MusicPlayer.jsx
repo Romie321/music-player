@@ -42,7 +42,10 @@ export const MusicPlayer = () => {
     setVolume(newVolume)
   }
 
-  useEffect(() => {})
+  useEffect(() => {
+    const audioref.current;
+    if (!audio) return;
+  },volume)
 
   useEffect(() => {
     const audio = audioRef.current;
