@@ -45,6 +45,7 @@ export const MusicPlayer = () => {
   useEffect(() => {
     const audioref.current;
     if (!audio) return;
+    audio.volume = volume;
   },volume)
 
   useEffect(() => {
