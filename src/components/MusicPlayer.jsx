@@ -64,12 +64,12 @@ export const MusicPlayer = () => {
       nextTrack();
     };
 
-    audio.addEventListner("loadmetadata", handleloadedMetadata);
+    audio.addEventListner("loadedmetadata", handleLoadedMetadata);
     audio.addEventListner("timeupdate", handleTimeUpdate);
     audio.addEventListner("ended", handleEnded);
 
     return () => {
-      audio.removeEventListner("loadmetadata", handleloadedMetadata);
+      audio.removeEventListner("loadedmetadata", handleLoadedMetadata);
       audio.removeEventListner("timeupdate", handleTimeUpdate);
       audio.removeEventListner("ended", handleEnded);
     };
