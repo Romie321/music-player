@@ -39,5 +39,27 @@ export const MusicProvider = ({ children }) => {
     const play = setIsPlaying(true);
     const pause = setIsPlaying(false);
   };
-  return <MusicContext.Provider value={{}}>{children}</MusicContext.Provider>;
+  return (
+    <MusicContext.Provider
+      value={{
+        allSongs,
+        handlePlaySong,
+        currentTrack,
+        currentTrackIndex,
+        currentTime,
+        formatTime,
+        duration,
+        setDuration,
+        nextTrack,
+        prevTrack,
+        play,
+        pause,
+        isPlaying,
+        volume,
+        setVolume,
+      }}
+    >
+      {children}
+    </MusicContext.Provider>
+  );
 };
