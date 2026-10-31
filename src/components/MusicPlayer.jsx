@@ -99,7 +99,7 @@ export const MusicPlayer = () => {
           value={currentTime || 0}
           onChange={handleTimeChange}
           className="progress-bar"
-          style={{}}
+          style={{"--progress": `${progressPercentage}`}}
         />
         <span className="time">{formatTime(duration)}</span>
       </div>
