@@ -73,7 +73,7 @@ export const MusicPlayer = () => {
       audio.removeEventListner("timeupdate", handleTimeUpdate);
       audio.removeEventListner("ended", handleEnded);
     };
-  }, [setDuration, setCurrentTime, currentTrack]);
+  }, [setDuration, setCurrentTime, currentTrack, nextTrack]);
 
   useEffect(() => {
     const audio = audioRef.current;
