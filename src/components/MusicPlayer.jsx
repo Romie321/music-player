@@ -71,6 +71,7 @@ export const MusicPlayer = () => {
 
     return () => {
       audio.removeEventListner("loadedmetadata", handleLoadedMetadata);
+      audio.removeEventListner("canplay", handleLoadedMetadata)
       audio.removeEventListner("timeupdate", handleTimeUpdate);
       audio.removeEventListner("ended", handleEnded);
     };
