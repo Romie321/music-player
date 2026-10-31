@@ -78,6 +78,7 @@ export const MusicPlayer = () => {
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
+    audio.load()
   },[currentTrack, setCurrentTime, setDuration])
 
   const progressPercentage = duration > 0 ? (currentTime / duration) * 100 : 0;
