@@ -71,6 +71,7 @@ export const useMusic = () => {
   const handlePlaySong = (song, index) => {
     setCurrentTrack(song);
     setCurrentTrackIndex(index);
+    setIsPlaying(false);
   };
 
   const nextTrack = () => {
