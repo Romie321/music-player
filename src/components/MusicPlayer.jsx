@@ -97,6 +97,7 @@ export const MusicPlayer = () => {
           value={currentTime || 0}
           onChange={handleTimeChange}
           className="progress-bar"
+          style={{}}
         />
         <span className="time">{formatTime(duration)}</span>
       </div>
