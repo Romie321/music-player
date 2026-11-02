@@ -123,4 +123,6 @@ export const MusicProvider = ({ children }) => {
   );
 };
 
-export const useMusic = () => {};
+export const useMusic = () => {
+  const contextValue = useContext(musicContext);
+};
