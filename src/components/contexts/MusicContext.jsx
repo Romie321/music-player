@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-export const MusicContext = createContext();
+const MusicContext = createContext();
 
 export const MusicProvider = ({ children }) => {
   const songs = [
