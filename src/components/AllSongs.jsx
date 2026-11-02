@@ -1,4 +1,3 @@
-
 import { useMusic } from "../hooks/useMusic";
 
 export const AllSongs = () => {
