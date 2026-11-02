@@ -126,6 +126,7 @@ export const MusicProvider = ({ children }) => {
 export const useMusic = () => {
   const contextValue = useContext(musicContext);
   if (!contextValue) {
+    throw new Error("useMusic must be used inside of MusicProvider");
   }
   return contextValue;
 };
