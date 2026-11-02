@@ -125,5 +125,7 @@ export const MusicProvider = ({ children }) => {
 
 export const useMusic = () => {
   const contextValue = useContext(musicContext);
+  if (!contextValue) {
+  }
   return contextValue;
 };
