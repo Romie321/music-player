@@ -17,7 +17,7 @@ export const MusicPlayer = () => {
     isPlaying,
     volume,
     setVolume
-  } = useContext(MusicContext);
+  } = useMusic();
   const audioRef = useRef(null);
 
   useEffect(() => {
