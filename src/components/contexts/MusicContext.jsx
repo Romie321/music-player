@@ -122,3 +122,5 @@ export const MusicProvider = ({ children }) => {
     </MusicContext.Provider>
   );
 };
+
+export const useMusic = () => {};
