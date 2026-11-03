@@ -12,7 +12,7 @@ export const Navbar = () => {
         </link>
       </div>
       <div className="navbar-links">
-        <link className={`nav-link active`} to="/">
+        <link className={`nav-link ${location.pathname === "/" : "active" ? ""}`} to="/">
           All Songs
         </link>
         <link className={`nav-link`} to="/playlists">
