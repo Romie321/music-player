@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 
 export const Navbar = () => {
+  const location = useLocation();
   return (
     <nav className="navbar">
       <div className="navbar-brand">
