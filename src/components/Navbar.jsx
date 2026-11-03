@@ -12,10 +12,16 @@ export const Navbar = () => {
         </link>
       </div>
       <div className="navbar-links">
-        <link className={`nav-link ${location.pathname === "/" ? "active" : ""}`} to="/">
+        <link
+          className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
+          to="/"
+        >
           All Songs
         </link>
-        <link className={`nav-link ${}`} to="/playlists">
+        <link
+          className={`nav-link ${location.pathname === "/playlists" ? "active" : ""}`}
+          to="/playlists"
+        >
           Playlists
         </link>
       </div>
