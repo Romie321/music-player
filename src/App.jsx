@@ -3,13 +3,14 @@ import {PlayList} from "./component/PlayList"
 import { MusicPlayer } from "./components/MusicPlayer";
 import { BrowserRouter, Routes, Route } from "react-router";
 import { MusicProvider } from "./components/contexts/MusicContext";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
       <MusicProvider>
         <div className="app">
-         <navbar />
+         <Navbar />
          <main className="app-main">
             <div className="player-section">
              <MusicPlayer />
