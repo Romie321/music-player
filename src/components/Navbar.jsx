@@ -14,6 +14,9 @@ export const Navbar = () => {
         <link className={`nav-link active`} to="/">
           All Songs
         </link>
+        <link className={`nav-link`} to="/playlists">
+          Playlists
+        </link>
       </div>
     </nav>
   );
