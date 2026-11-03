@@ -10,6 +10,7 @@ export const Navbar = () => {
           <FontAwesomeIcon icon={byPrefixAndName.far["music"]} />
         </link>
       </div>
+      <div className="navbar-links"></div>
     </nav>
   );
 };
