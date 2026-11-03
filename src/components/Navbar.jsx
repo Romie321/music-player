@@ -1,3 +1,7 @@
 export const Navbar = () => {
-  return <nav className="navbar"></nav>;
+  return (
+    <nav className="navbar">
+      <div className="navbar-brand"></div>
+    </nav>
+  );
 };
