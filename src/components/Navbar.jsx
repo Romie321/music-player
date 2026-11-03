@@ -4,7 +4,11 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <link className="brand-link" to="/"></link>
+        <link className="brand-link" to="/">
+          <FontAwesomeIcon icon={byPrefixAndName.far["music"]} />
+          Music Player
+          <FontAwesomeIcon icon={byPrefixAndName.far["music"]} />
+        </link>
       </div>
     </nav>
   );
