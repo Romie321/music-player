@@ -297,4 +297,6 @@ body {
   align-items: center;
   padding: 1rem 0;
   margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
