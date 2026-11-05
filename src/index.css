@@ -312,4 +312,5 @@ body {
   text-decoration: none;
   color: ghostwhite;
   background: linear-gradient(45deg, #10b981, #059669, #047857);
+  background-size: 200% 200%;
 }
