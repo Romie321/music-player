@@ -309,4 +309,6 @@ body {
 }
 
 .brand-link {
+  text-decoration: none;
+  color: ghostwhite;
 }
