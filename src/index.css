@@ -372,4 +372,5 @@ body {
   border: 1px solid transparent;
   border-radius: 12px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
