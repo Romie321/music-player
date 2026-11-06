@@ -381,4 +381,5 @@ body {
 }
 
 .song-card.active {
+  background: linear-gradient(45deg, rgba(16, 185, 129, 0.5));
 }
