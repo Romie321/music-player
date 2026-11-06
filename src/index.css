@@ -391,4 +391,5 @@ body {
 }
 
 .song-info {
+  flex: 1;
 }
