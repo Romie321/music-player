@@ -358,4 +358,5 @@ body {
 }
 
 .song-grid {
+  display: grid;
 }
