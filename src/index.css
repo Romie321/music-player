@@ -404,6 +404,7 @@ body {
 .song-artist {
   font-size: 0.9rem;
   margin-left: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .song-duration {
