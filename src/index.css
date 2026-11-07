@@ -440,3 +440,6 @@ body {
   outline: none;
   transition: all 0.3s ease;
 }
+
+.song-search-input::placeholder {
+}
