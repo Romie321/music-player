@@ -446,4 +446,5 @@ body {
 }
 
 .song-search-input:focus {
+  border-color: rgba(16, 185, 129, 0.5);
 }
