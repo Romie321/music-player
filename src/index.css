@@ -425,4 +425,5 @@ body {
 }
 
 .search-container {
+  position: relative;
 }
