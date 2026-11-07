@@ -421,4 +421,5 @@ body {
 
 /*Add song search styles*/
 .add-song-section {
+  margin-bottom: 1rem;
 }
