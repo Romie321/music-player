@@ -451,4 +451,5 @@ body {
 }
 
 .song-dropdown {
+  position: absolute;
 }
