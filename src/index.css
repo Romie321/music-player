@@ -479,3 +479,7 @@ body {
   font-style: italic;
   cursor: default;
 }
+
+.dropdown-item.no-results:hover {
+  background: transparent;
+}
