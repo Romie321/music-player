@@ -571,3 +571,6 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+.song-option:hover {
+}
