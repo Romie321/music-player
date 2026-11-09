@@ -584,4 +584,5 @@ body {
   width: 100%;
   cursor: pointer;
   transition: all 03s ease;
+  border: 1px solid rgba(255, 107, 107, 0.5);
 }
