@@ -461,4 +461,5 @@ body {
   border-radius: 8px;
   margin-top: 0.25;
   max-height: 200px;
+  overflow-y: auto;
 }
