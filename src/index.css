@@ -462,4 +462,5 @@ body {
   margin-top: 0.25;
   max-height: 200px;
   overflow-y: auto;
+  z-index: 10;
 }
