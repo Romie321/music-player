@@ -460,4 +460,5 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   margin-top: 0.25;
+  max-height: 200px;
 }
