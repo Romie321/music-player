@@ -514,4 +514,9 @@ body {
 }
 
 .playlist-song.active {
+  background: linear-gradient(
+    45deg,
+    rgba(16, 185, 129, 0.2),
+    rgba(5, 150, 105, 0.2)
+  );
 }
