@@ -469,3 +469,6 @@ body {
 .dropdown-item:last-child {
   border-bottom: none;
 }
+
+.dropdown-item:hover {
+}
