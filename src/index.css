@@ -524,4 +524,5 @@ body {
 
 /*Modal styles*/
 .modal-overlay {
+  position: fixed;
 }
