@@ -543,4 +543,6 @@ body {
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   padding: 2rem;
+  width: 90%;
+  max-width: 500px;
 }
