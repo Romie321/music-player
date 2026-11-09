@@ -575,3 +575,7 @@ body {
 .song-option:hover {
   background: rgba(255, 255, 255, 0.1);
 }
+
+.close-btn {
+  background: rgba(255, 107, 107, 0.2);
+}
