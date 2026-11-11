@@ -1,3 +1,3 @@
 export const PlayList = () => {
-  return <div></div>;
+  return <div>Playlists</div>;
 };
