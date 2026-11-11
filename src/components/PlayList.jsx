@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export const PlayList = () => {
+  const [newPlayListName, setNewPlayListName] = useState("");
   return (
     <div className="playlists">
       <h2>Playlists</h2>
