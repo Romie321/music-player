@@ -70,6 +70,7 @@ export const MusicProvider = ({ children }) => {
     const [duration, setDuration] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const [volume, setVolume] = useState(1);
+    const [playlists, setPlaylist] = useState([]);
 
     const handlePlaySong = (song, index) => {
       setCurrentTrack(song);
