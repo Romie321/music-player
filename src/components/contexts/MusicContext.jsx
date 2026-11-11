@@ -99,6 +99,7 @@ export const MusicProvider = ({ children }) => {
     const formatTime = (time) => {
       if (isNaN(time) || time === undefined) return "0:00";
       const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
     };
 
     const play = setIsPlaying(true);
