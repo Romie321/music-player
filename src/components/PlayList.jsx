@@ -17,6 +17,7 @@ export const PlayList = () => {
             onClick={(e) => setNewPlayListName(e.target.value)}
             value={newPlaylistName}
           />
+          <button className="create-button">Create</button>
         </div>
       </div>
     </div>
