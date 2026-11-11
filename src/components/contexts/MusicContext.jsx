@@ -96,7 +96,9 @@ export const MusicProvider = ({ children }) => {
       setIsPlaying(false);
     };
 
-    const formatTime = () => {};
+    const formatTime = (time) => {
+      if (isNaN(time) || time === undefined) return "0:00";
+    };
 
     const play = setIsPlaying(true);
     const pause = setIsPlaying(false);
