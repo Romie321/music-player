@@ -14,7 +14,7 @@ export const PlayList = () => {
             type="text"
             placeholder="Playlist name..."
             className="playlist-input"
-            onClick={(e) => setNewChangeList(e.target.value)}
+            onClick={(e) => setNewPlayListName(e.target.value)}
             value={newPlaylistName}
           />
         </div>
