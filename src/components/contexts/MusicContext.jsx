@@ -96,6 +96,8 @@ export const MusicProvider = ({ children }) => {
       setIsPlaying(false);
     };
 
+    const formatTime = () => {};
+
     const play = setIsPlaying(true);
     const pause = setIsPlaying(false);
   };
