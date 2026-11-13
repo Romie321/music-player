@@ -42,7 +42,9 @@ export const PlayList = () => {
                 </div>
               </div>
               <div className="add-song-section">
-                <div className="search-container"></div>
+                <div className="search-container">
+                  <input type="text" placeholder="Search for songs to add..." />
+                </div>
               </div>
             </div>
           ))
