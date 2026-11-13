@@ -37,6 +37,7 @@ export const PlayList = () => {
             <div playlist-item key={key}>
               <div>
                 <h3 className="playlist-header">{playlist.name}</h3>
+                <div className="playlist-actions"></div>
               </div>
             </div>
           ))
