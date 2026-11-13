@@ -103,6 +103,8 @@ export const MusicProvider = ({ children }) => {
       return `${minutes} : ${seconds.toString.padStart(2, "0")}`;
     };
 
+    const createPlaylist = () => {};
+
     const play = setIsPlaying(true);
     const pause = setIsPlaying(false);
   };
