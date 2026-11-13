@@ -33,7 +33,7 @@ export const PlayList = () => {
         {playlists.length === 0 ? (
           <p>No playlists have been created yet.</p>
         ) : (
-          playlists.map((playlist, key) => <div></div>)
+          playlists.map((playlist, key) => <div playlist-item key={key}></div>)
         )}
       </div>
     </div>
