@@ -29,6 +29,7 @@ export const PlayList = () => {
           </button>
         </div>
       </div>
+      <div className="playlists-list"></div>
     </div>
   );
 };
