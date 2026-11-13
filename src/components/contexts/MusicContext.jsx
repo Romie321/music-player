@@ -134,6 +134,8 @@ export const MusicProvider = ({ children }) => {
         isPlaying,
         volume,
         setVolume,
+        createPlaylist,
+        playlists,
       }}
     >
       {children}
