@@ -103,7 +103,9 @@ export const MusicProvider = ({ children }) => {
       return `${minutes} : ${seconds.toString.padStart(2, "0")}`;
     };
 
-    const createPlaylist = () => {};
+    const createPlaylist = (name) => {
+      const newPlaylist = {};
+    };
 
     const play = setIsPlaying(true);
     const pause = setIsPlaying(false);
