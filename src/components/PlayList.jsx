@@ -5,7 +5,10 @@ export const PlayList = () => {
 
   const { playlists, createPlaylist } = useMusic();
 
-  const handleCreatePlaylist = () => {};
+  const handleCreatePlaylist = () => {
+    if (newPlaylist.trim()) {
+    }
+  };
   return (
     <div className="playlists">
       <h2>Playlists</h2>
