@@ -29,7 +29,9 @@ export const PlayList = () => {
           </button>
         </div>
       </div>
-      <div className="playlists-list"></div>
+      <div className="playlists-list">
+        {playlists.length === 0 ? (<p>No playlists have been created yet.</p>)}
+      </div>
     </div>
   );
 };
