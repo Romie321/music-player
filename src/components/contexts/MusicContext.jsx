@@ -107,6 +107,7 @@ export const MusicProvider = ({ children }) => {
       const newPlaylist = {
         id: Date.now(),
         name,
+        songs: [],
       };
     };
 
