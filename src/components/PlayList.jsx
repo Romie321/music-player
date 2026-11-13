@@ -8,6 +8,7 @@ export const PlayList = () => {
   const handleCreatePlaylist = () => {
     if (newPlaylist.trim()) {
       createPlaylist(newPlayListName.trim());
+      setNewPlayListName("");
     }
   };
   return (
