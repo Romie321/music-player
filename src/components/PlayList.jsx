@@ -41,6 +41,7 @@ export const PlayList = () => {
                   <button className="delete-playlist-btn">Delete</button>
                 </div>
               </div>
+              <div className="add-song-section"></div>
             </div>
           ))
         )}
