@@ -109,6 +109,8 @@ export const MusicProvider = ({ children }) => {
         name,
         songs: [],
       };
+
+      setPlaylist((prev) => [...prev, newPlaylist]);
     };
 
     const play = setIsPlaying(true);
