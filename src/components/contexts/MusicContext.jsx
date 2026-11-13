@@ -104,7 +104,9 @@ export const MusicProvider = ({ children }) => {
     };
 
     const createPlaylist = (name) => {
-      const newPlaylist = {};
+      const newPlaylist = {
+        id: Date.now(),
+      };
     };
 
     const play = setIsPlaying(true);
