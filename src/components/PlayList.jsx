@@ -35,8 +35,8 @@ export const PlayList = () => {
         ) : (
           playlists.map((playlist, key) => (
             <div playlist-item key={key}>
-              <div>
-                <h3 className="playlist-header">{playlist.name}</h3>
+              <div className="playlist-header">
+                <h3>{playlist.name}</h3>
                 <div className="playlist-actions">
                   <button className="delete-playlist-btn">Delete</button>
                 </div>
