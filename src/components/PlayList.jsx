@@ -30,7 +30,11 @@ export const PlayList = () => {
         </div>
       </div>
       <div className="playlists-list">
-        {playlists.length === 0 ? (<p>No playlists have been created yet.</p>)}
+        {playlists.length === 0 ? (
+          <p>No playlists have been created yet.</p>
+        ) : (
+          playlists.map()
+        )}
       </div>
     </div>
   );
