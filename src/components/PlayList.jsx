@@ -36,7 +36,7 @@ export const PlayList = () => {
           playlists.map((playlist, key) => (
             <div playlist-item key={key}>
               <div>
-                <h3>{playlist.name}</h3>
+                <h3 className="playlist-header">{playlist.name}</h3>
               </div>
             </div>
           ))
