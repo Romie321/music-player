@@ -46,7 +46,11 @@ export const PlayList = () => {
               </div>
               <div className="add-song-section">
                 <div className="search-container">
-                  <input type="text" placeholder="Search for songs to add..." />
+                  <input
+                    type="text"
+                    placeholder="Search for songs to add..."
+                    value={selectPlaylist.id === playlist.id ? searchQuery : ""}
+                  />
                 </div>
               </div>
             </div>
