@@ -53,6 +53,7 @@ export const PlayList = () => {
                     onChange={(e) => {
                       setSearchQuery(e.target.value);
                       setSelectPlaylist(playlist);
+                      setShowDropdown(e.target.value.length > 0);
                     }}
                   />
                 </div>
