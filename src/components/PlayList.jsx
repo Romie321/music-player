@@ -55,6 +55,9 @@ export const PlayList = () => {
                       setSelectPlaylist(playlist);
                       setShowDropdown(e.target.value.length > 0);
                     }}
+                    onFocus={() => {
+                      setSelectPlaylist(playlist);
+                    }}
                   />
                 </div>
               </div>
