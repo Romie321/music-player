@@ -59,6 +59,7 @@ export const PlayList = () => {
                       setSelectPlaylist(playlist);
                       setShowDropdown(e.target.value.length > 0);
                     }}
+                    className="song-search-input"
                   />
                 </div>
               </div>
