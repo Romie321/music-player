@@ -52,6 +52,7 @@ export const PlayList = () => {
                     value={selectPlaylist.id === playlist.id ? searchQuery : ""}
                     onChange={(e) => {
                       setSearchQuery(e.target.value);
+                      setSelectPlaylist(playlist);
                     }}
                   />
                 </div>
