@@ -4,6 +4,7 @@ export const PlayList = () => {
   const [newPlayListName, setNewPlayListName] = useState("");
   const [selectPlaylist, setSelectPlaylist] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const { playlists, createPlaylist } = useMusic();
 
