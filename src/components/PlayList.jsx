@@ -50,6 +50,9 @@ export const PlayList = () => {
                     type="text"
                     placeholder="Search for songs to add..."
                     value={selectPlaylist.id === playlist.id ? searchQuery : ""}
+                    onChange={(e) => {
+                      setSearchQuery(e.target.value);
+                    }}
                   />
                 </div>
               </div>
