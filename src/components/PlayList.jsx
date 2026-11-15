@@ -3,6 +3,7 @@ import { useState } from "react";
 export const PlayList = () => {
   const [newPlayListName, setNewPlayListName] = useState("");
   const [selectPlaylist, setSelectPlaylist] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const { playlists, createPlaylist } = useMusic();
 
