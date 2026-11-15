@@ -49,7 +49,9 @@ export const PlayList = () => {
                   <input
                     type="text"
                     placeholder="Search for songs to add..."
-                    value={selectPlaylist.id === playlist.id ? searchQuery : ""}
+                    value={
+                      selectPlaylist?.id === playlist.id ? searchQuery : ""
+                    }
                     onChange={(e) => {
                       setSearchQuery(e.target.value);
                       setSelectPlaylist(playlist);
