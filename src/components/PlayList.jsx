@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export const PlayList = () => {
   const [newPlayListName, setNewPlayListName] = useState("");
+  const [selectPlaylist, setSelectPlaylist] = useState(null);
 
   const { playlists, createPlaylist } = useMusic();
 
