@@ -9,7 +9,7 @@ export const PlayList = () => {
   const { playlists, createPlaylist, allSongs } = useMusic();
 
   const filteredSongs = allSongs.filter((song) => {
-    const matches = song.title.includes();
+    const matches = song.title.includes(searchQuery);
   });
 
   const handleCreatePlaylist = () => {
