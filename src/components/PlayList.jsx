@@ -6,7 +6,9 @@ export const PlayList = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const { playlists, createPlaylist } = useMusic();
+  const { playlists, createPlaylist, allSongs } = useMusic();
+
+  const filteredSongs = 
 
   const handleCreatePlaylist = () => {
     if (newPlaylist.trim()) {
