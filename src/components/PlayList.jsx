@@ -63,7 +63,7 @@ export const PlayList = () => {
                     }}
                     className="song-search-input"
                   />
-                  {selectedPlaylist?.id === playlist.id && showDropdown && (
+                  {selectPlaylist?.id === playlist.id && showDropdown && (
                     <div className="song-dropdown"></div>
                   )}
                 </div>
