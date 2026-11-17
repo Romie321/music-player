@@ -8,7 +8,7 @@ export const PlayList = () => {
 
   const { playlists, createPlaylist, allSongs } = useMusic();
 
-  const filteredSongs = allSongs.filter();
+  const filteredSongs = allSongs.filter((song) => {});
 
   const handleCreatePlaylist = () => {
     if (newPlaylist.trim()) {
