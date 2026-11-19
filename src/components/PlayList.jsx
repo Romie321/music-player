@@ -86,7 +86,7 @@ export const PlayList = () => {
                           <div
                             key={key}
                             className="dropdown-item"
-                            onClick={() => handleAddSong()}
+                            onClick={() => handleAddSong(song)}
                           >
                             <span className="song-title">{song.title}</span>
                             <span className="song-artist">{song.artist}</span>
