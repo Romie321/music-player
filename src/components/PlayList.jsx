@@ -29,7 +29,7 @@ export const PlayList = () => {
 
   const handleAddSong = () => {
     if (selectPlaylist) {
-      addSongToPlaylist();
+      addSongToPlaylist(selectedPlaylist.id, song);
     }
   };
 
