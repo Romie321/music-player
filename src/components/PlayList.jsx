@@ -82,7 +82,7 @@ export const PlayList = () => {
                           No songs found.
                         </div>
                       ) : (
-                        filteredSongs.map()
+                        filteredSongs.map((song, key) => <div></div>)
                       )}
                     </div>
                   )}
