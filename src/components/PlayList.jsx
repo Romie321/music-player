@@ -26,6 +26,8 @@ export const PlayList = () => {
       setNewPlayListName("");
     }
   };
+
+  const handleAddSong = () => {};
   return (
     <div className="playlists">
       <h2>Playlists</h2>
