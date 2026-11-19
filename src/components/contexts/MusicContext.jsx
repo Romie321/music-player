@@ -113,7 +113,7 @@ export const MusicProvider = ({ children }) => {
       setPlaylist((prev) => [...prev, newPlaylist]);
     };
 
-    const addSongToPlaylist = (playlistId, song);
+    const addSongToPlaylist = (playlistId, song) => {};
 
     const play = setIsPlaying(true);
     const pause = setIsPlaying(false);
