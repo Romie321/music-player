@@ -27,7 +27,11 @@ export const PlayList = () => {
     }
   };
 
-  const handleAddSong = () => {};
+  const handleAddSong = () => {
+    if (selectPlaylist) {
+    }
+  };
+
   return (
     <div className="playlists">
       <h2>Playlists</h2>
