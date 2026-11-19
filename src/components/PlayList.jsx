@@ -83,7 +83,10 @@ export const PlayList = () => {
                         </div>
                       ) : (
                         filteredSongs.map((song, key) => (
-                          <div key={key} className="dropdown-item"></div>
+                          <div key={key} className="dropdown-item">
+                            <span></span>
+                            <span></span>
+                          </div>
                         ))
                       )}
                     </div>
