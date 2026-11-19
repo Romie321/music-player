@@ -16,6 +16,8 @@ export const PlayList = () => {
     const isAlreadyInPlaylist = selectPlaylist?.songs.some(
       (playlistSong) => playlistSong.id === song.id,
     );
+
+    return matches && !isAlreadyInPlaylist;
   });
 
   const handleCreatePlaylist = () => {
