@@ -76,7 +76,9 @@ export const PlayList = () => {
                     className="song-search-input"
                   />
                   {selectPlaylist?.id === playlist.id && showDropdown && (
-                    <div className="song-dropdown"></div>
+                    <div className="song-dropdown">
+                      {filteredSongs.length === 0 ? (<div></div>)}
+                    </div>
                   )}
                 </div>
               </div>
