@@ -13,7 +13,7 @@ export const PlayList = () => {
       song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       song.artist.toLowerCase().includes(searchQuery.toLowerCase());
 
-    const isAlreadyInPlaylist = selectPlaylist?.songs;
+    const isAlreadyInPlaylist = selectPlaylist?.songs.some();
   });
 
   const handleCreatePlaylist = () => {
