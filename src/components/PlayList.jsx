@@ -77,7 +77,7 @@ export const PlayList = () => {
                   />
                   {selectPlaylist?.id === playlist.id && showDropdown && (
                     <div className="song-dropdown">
-                      {filteredSongs.length === 0 ? (<div></div>)}
+                      {filteredSongs.length === 0 ? (<div>No songs found.</div>)}
                     </div>
                   )}
                 </div>
