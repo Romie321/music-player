@@ -13,7 +13,9 @@ export const PlayList = () => {
       song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       song.artist.toLowerCase().includes(searchQuery.toLowerCase());
 
-    const isAlreadyInPlaylist = selectPlaylist?.songs.some();
+    const isAlreadyInPlaylist = selectPlaylist?.songs.some(
+      (playlistSong) => playlistSong.id === song.id,
+    );
   });
 
   const handleCreatePlaylist = () => {
