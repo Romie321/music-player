@@ -31,6 +31,7 @@ export const PlayList = () => {
     if (selectPlaylist) {
       addSongToPlaylist(selectedPlaylist.id, song);
       setSearchQuery("");
+      setShowDropdown(false);
     }
   };
 
