@@ -114,7 +114,12 @@ export const MusicProvider = ({ children }) => {
     };
 
     const addSongToPlaylist = (playlistId, song) => {
-      setPlayList((prev) => prev.map((playlist) => {}));
+      setPlayList((prev) =>
+        prev.map((playlist) => {
+          if (playlist.id === playlistId) {
+          }
+        }),
+      );
     };
 
     const play = setIsPlaying(true);
