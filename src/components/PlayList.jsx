@@ -83,7 +83,11 @@ export const PlayList = () => {
                         </div>
                       ) : (
                         filteredSongs.slice(0, 5).map((song, key) => (
-                          <div key={key} className="dropdown-item">
+                          <div
+                            key={key}
+                            className="dropdown-item"
+                            onClick={() => handleAddSong()}
+                          >
                             <span className="song-title">{song.title}</span>
                             <span className="song-artist">{song.artist}</span>
                           </div>
