@@ -118,6 +118,8 @@ export const MusicProvider = ({ children }) => {
         prev.map((playlist) => {
           if (playlist.id === playlistId) {
             return { ...playlist, song: [...playlist.songs, song] };
+          } else {
+            return playlist;
           }
         }),
       );
