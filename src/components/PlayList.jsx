@@ -30,6 +30,7 @@ export const PlayList = () => {
   const handleAddSong = () => {
     if (selectPlaylist) {
       addSongToPlaylist(selectedPlaylist.id, song);
+      setSearchQuery("");
     }
   };
 
