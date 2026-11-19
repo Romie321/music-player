@@ -113,7 +113,9 @@ export const MusicProvider = ({ children }) => {
       setPlaylist((prev) => [...prev, newPlaylist]);
     };
 
-    const addSongToPlaylist = (playlistId, song) => {};
+    const addSongToPlaylist = (playlistId, song) => {
+      setPlayList((prev) => prev.map((playlist) => {})
+    };
 
     const play = setIsPlaying(true);
     const pause = setIsPlaying(false);
