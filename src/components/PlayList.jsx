@@ -106,7 +106,9 @@ export const PlayList = () => {
                   )}
                 </div>
               </div>
-              <div className="playlist-song"></div>
+              <div className="playlist-song">
+                {playlist.songs.length === 0 ? <p>No songs are in this playlist.</p>}
+              </div>
             </div>
           ))
         )}
