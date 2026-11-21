@@ -111,7 +111,7 @@ export const PlayList = () => {
                   <p>No songs are in this playlist.</p>
                 ) : (
                   playlist.songs.map((song, key) => (
-                    <div className={`playlist-song`}></div>
+                    <div className={`playlist-song`} key={key}></div>
                   ))
                 )}
               </div>
