@@ -114,7 +114,7 @@ export const PlayList = () => {
                     <div className={`playlist-song`} key={key}>
                       <div className="song-info">
                         <span className="song-title">{song.title}</span>
-                        <span className="song-artist"></span>
+                        <span className="song-artist">{song.artist}</span>
                       </div>
                     </div>
                   ))
