@@ -116,6 +116,7 @@ export const PlayList = () => {
                         <span className="song-title">{song.title}</span>
                         <span className="song-artist">{song.artist}</span>
                       </div>
+                      <span className="song-duration"></span>
                     </div>
                   ))
                 )}
