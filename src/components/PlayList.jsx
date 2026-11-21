@@ -113,7 +113,7 @@ export const PlayList = () => {
                   playlist.songs.map((song, key) => (
                     <div className={`playlist-song`} key={key}>
                       <div className="song-info">
-                        <span></span>
+                        <span className="song-title"></span>
                       </div>
                     </div>
                   ))
