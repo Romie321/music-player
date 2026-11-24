@@ -6,7 +6,7 @@ export const PlayList = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const { playlists, createPlaylist, allSongs } = useMusic();
+  const { playlists, createPlaylist, allSongs, currentTrackIndex } = useMusic();
 
   const filteredSongs = allSongs.filter((song) => {
     const matches =
