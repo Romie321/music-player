@@ -43,7 +43,7 @@ export const PlayList = () => {
 
   const handlePlayFromPlaylist = (song) => {
     const globalIndex = allSongs.findIndex((s) => s.id === song.id);
-    handlePlaySong();
+    handlePlaySong(song, globalIndex);
   };
 
   return (
