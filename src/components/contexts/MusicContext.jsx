@@ -149,7 +149,6 @@ export const MusicProvider = ({ children }) => {
         createPlaylist,
         playlists,
         addSongToPlaylist,
-        setCurrentTrack,
       }}
     >
       {children}
