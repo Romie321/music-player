@@ -35,6 +35,8 @@ export const PlayList = () => {
     }
   };
 
+  const handlePlayFromPlaylist = () => {};
+
   return (
     <div className="playlists">
       <h2>Playlists</h2>
