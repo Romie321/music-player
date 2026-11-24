@@ -36,7 +36,7 @@ export const PlayList = () => {
   };
 
   const handlePlayFromPlaylist = (song) => {
-    const globalIndex = allSongs.findIndex();
+    const globalIndex = allSongs.findIndex((s) => s.id === song.id);
   };
 
   return (
