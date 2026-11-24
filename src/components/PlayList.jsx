@@ -11,7 +11,7 @@ export const PlayList = () => {
     createPlaylist,
     allSongs,
     currentTrackIndex,
-    setCurrentTrack,
+    handlePlaySong,
   } = useMusic();
 
   const filteredSongs = allSongs.filter((song) => {
