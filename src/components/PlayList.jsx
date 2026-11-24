@@ -114,7 +114,9 @@ export const PlayList = () => {
                     <div
                       className={`playlist-song ${currentTrackIndex === allSongs.findIndex((s) => s.id === song.id) ? "active" : ""}`}
                       key={key}
-                      onClick={() => handlePlayFromPlaylist()}
+                      onClick={() =>
+                        handlePlayFromPlaylist(song, playlist.id, key)
+                      }
                     >
                       <div className="song-info">
                         <span className="song-title">{song.title}</span>
