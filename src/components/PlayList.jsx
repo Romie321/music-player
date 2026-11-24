@@ -111,7 +111,10 @@ export const PlayList = () => {
                   <p>No songs are in this playlist.</p>
                 ) : (
                   playlist.songs.map((song, key) => (
-                    <div className={`playlist-song ${}`} key={key}>
+                    <div
+                      className={`playlist-song ${currentTrackIndex === allSongs.findIndex()}`}
+                      key={key}
+                    >
                       <div className="song-info">
                         <span className="song-title">{song.title}</span>
                         <span className="song-artist">{song.artist}</span>
