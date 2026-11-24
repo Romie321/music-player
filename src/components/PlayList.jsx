@@ -112,7 +112,7 @@ export const PlayList = () => {
                 ) : (
                   playlist.songs.map((song, key) => (
                     <div
-                      className={`playlist-song ${currentTrackIndex === allSongs.findIndex()}`}
+                      className={`playlist-song ${currentTrackIndex === allSongs.findIndex((s) => s.id === song.id)}`}
                       key={key}
                     >
                       <div className="song-info">
