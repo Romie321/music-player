@@ -46,6 +46,8 @@ export const PlayList = () => {
     handlePlaySong(song, globalIndex);
   };
 
+  const deletePlaylistConfirmation = (id) {}
+
   return (
     <div className="playlists">
       <h2>Playlists</h2>
