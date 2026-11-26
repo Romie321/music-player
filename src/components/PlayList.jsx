@@ -46,7 +46,7 @@ export const PlayList = () => {
     handlePlaySong(song, globalIndex);
   };
 
-  const deletePlaylistConfirmation = (playlist) {
+  const deletePlaylistConfirmation = (playlist) => {
     if(window.confirm(`Are you sure you want to delete "${playlist.name"?`))
   }
 
