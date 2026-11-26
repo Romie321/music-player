@@ -113,6 +113,8 @@ export const MusicProvider = ({ children }) => {
       setPlaylist((prev) => [...prev, newPlaylist]);
     };
 
+    const deletePlaylist = () => {};
+
     const addSongToPlaylist = (playlistId, song) => {
       setPlayList((prev) =>
         prev.map((playlist) => {
