@@ -47,7 +47,7 @@ export const PlayList = () => {
   };
 
   const deletePlaylistConfirmation = (playlist) {
-    if(window.confirm())
+    if(window.confirm(`Are you sure you want to delete "${playlist.name"?`))
   }
 
   return (
