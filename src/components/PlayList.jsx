@@ -73,7 +73,12 @@ export const PlayList = () => {
               <div className="playlist-header">
                 <h3>{playlist.name}</h3>
                 <div className="playlist-actions">
-                  <button className="delete-playlist-btn" onClick={}>Delete</button>
+                  <button
+                    className="delete-playlist-btn"
+                    onClick={() => deletePlaylistConfirmation()}
+                  >
+                    Delete
+                  </button>
                 </div>
               </div>
               <div className="add-song-section">
