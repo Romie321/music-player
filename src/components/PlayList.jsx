@@ -75,7 +75,7 @@ export const PlayList = () => {
                 <div className="playlist-actions">
                   <button
                     className="delete-playlist-btn"
-                    onClick={() => deletePlaylistConfirmation()}
+                    onClick={() => deletePlaylistConfirmation(playlist.id)}
                   >
                     Delete
                   </button>
