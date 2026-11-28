@@ -73,7 +73,9 @@ export const MusicProvider = ({ children }) => {
     const [playlist, setPlaylist] = useState([]);
 
     useEffect(() => {
-      if(playlist.length > 0)
+      if (playlist.length > 0) {
+        localStorage.setItem();
+      }
     }, [playlist]);
 
     const handlePlaySong = (song, index) => {
