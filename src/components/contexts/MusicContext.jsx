@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 const MusicContext = createContext();
 
@@ -71,6 +71,8 @@ export const MusicProvider = ({ children }) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [volume, setVolume] = useState(1);
     const [playlist, setPlaylist] = useState([]);
+
+    useEffect();
 
     const handlePlaySong = (song, index) => {
       setCurrentTrack(song);
